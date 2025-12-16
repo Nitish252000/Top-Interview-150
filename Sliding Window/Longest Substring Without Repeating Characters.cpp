@@ -16,3 +16,12 @@ public:
         return maxi;
     }
 };
+
+
+
+
+// ❓ What happens if you use if instead of while?
+    // WHY if FAILS (Core Reason)   
+        // When you see a duplicate character,
+        // you must remove characters until the duplicate is gone.  
+        // Sometimes removing just one character is NOT enough.
