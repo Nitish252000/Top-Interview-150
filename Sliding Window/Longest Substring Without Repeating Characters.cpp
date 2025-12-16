@@ -25,3 +25,8 @@ public:
         // When you see a duplicate character,
         // you must remove characters until the duplicate is gone.  
         // Sometimes removing just one character is NOT enough.
+
+
+// One-Line Interview Explanation
+
+// “We use while because there can be multiple characters to remove before the window becomes valid again.”
