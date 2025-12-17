@@ -9,12 +9,19 @@ public:
             fq_mz[s]++;
         }
 
-        for (auto i : ransomNote) {
-            if (fq_mz.count(i) && fq_mz[i] != 0) {
-                fq_mz[i]--;
-            } else {
-                return false;
-            }
+        // for (auto i : ransomNote) {
+        //     if (fq_mz.count(i) && fq_mz[i] != 0) {
+        //         fq_mz[i]--;
+        //     } else {
+        //         return false;
+        //     }
+        // }
+                    //or
+
+
+        for(auto i:ransomNote){
+            if(fq_mz[i]<1)return false;
+            fq_mz[i]--;
         }
         return true;
     }
