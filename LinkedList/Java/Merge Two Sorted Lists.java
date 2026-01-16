@@ -8,7 +8,7 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-//--------------------Method 1 :S.C= O(N) ---------------
+//--------------------Method 1 :S.C= O(M+N) ---------------
 class Solution {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         if (list1 == null && list2 == null)
